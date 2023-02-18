@@ -8,9 +8,9 @@ public class App {
         System.out.println("digite el numero de viajes realizados");
         x = entra.nextInt();
         for (int i = 1; i <= x; i++) {
-            System.out.println("cuantos kilometros en el viaje" + i);
+            System.out.println("cuantos kilometros en el viaje  " + i);
             Km = entra.nextInt();
-            System.out.println("cuantos litros en el viaje" + i);
+            System.out.println("cuantos litros en el viaje  " + i);
             Lt = entra.nextInt();
         }
         entra.close();
